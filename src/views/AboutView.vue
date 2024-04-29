@@ -1,15 +1,20 @@
 <template>
   <div class="about">
-    <h1>This is an about page</h1>
+    <h2>Marcela Kawamoto Fernandes</h2>
+    <p>ADS - UNIMAR - 2024  - RA: 1965868</p>
   </div>
 </template>
 
 <style>
-@media (min-width: 1024px) {
-  .about {
-    min-height: 100vh;
-    display: flex;
-    align-items: center;
-  }
+.about {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column; 
+  justify-content: flex-start; 
+  align-items: center; 
 }
+.about h1 {
+  margin-bottom: 10px; 
+}
+
 </style>
